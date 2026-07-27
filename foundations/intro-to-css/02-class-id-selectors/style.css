@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.class-one,.class-two {
+    background-color: palevioletred;
+    font-family: Verdana, 'DejaVu sans', sans-serif;
+}
+.class-two {
+    font-size: 24px;
+}
+#id-one, #id-two {
+    font-family: 'Times New Roman', Times, serif;
+}
+#id-one {
+    color: blue;
+    font-size: 36px;
+}
+#id-two {
+    background-color: lime;
+    font-weight: bold;
+    font-size: 24px;
+}
