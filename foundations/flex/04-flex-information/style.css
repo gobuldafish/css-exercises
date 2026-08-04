@@ -4,6 +4,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 img {
@@ -18,16 +19,24 @@ img {
   font-weight: 900;
   justify-content: center;
   display: flex;
+  margin-bottom: 32px;
 }
 .items {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-
   
-
+  flex-direction: row;
+ 
+  gap: 52px;
+  justify-content: space-between;
+  margin: 32px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
 
 
 /* do not edit this footer */
