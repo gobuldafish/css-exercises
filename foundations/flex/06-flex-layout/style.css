@@ -24,3 +24,43 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+/* My Edits */
+body {
+  flex-direction: column;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  display: flex;
+}
+.footer {
+  background-color: #eee;
+}
+.footer, .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.content {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+
+
+
+
+
